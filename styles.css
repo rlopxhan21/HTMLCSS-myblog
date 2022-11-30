@@ -39,6 +39,7 @@ a {
 
 .fa-brands {
   margin-left: 2rem;
+  font-size: 20px;
 }
 
 .fa-brands {
@@ -83,8 +84,7 @@ a {
 }
 
 .main {
-  padding: 5rem 0;
-  margin: 1rem auto;
+  margin: 0 auto;
 
   position: relative;
 }
@@ -100,7 +100,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 
-  min-height: 85vh;
+  min-height: 90vh;
 }
 
 .hero--section {
@@ -123,6 +123,10 @@ a {
 }
 
 .image--section {
+  width: 65%;
+  margin: 0 auto;
+  padding: 5rem 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
