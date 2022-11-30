@@ -10,9 +10,144 @@
 
 html {
   font-size: 62.5%;
+  font-weight: 400;
 }
 
 body {
   font-family: "Oswald", "Lato", sans-serif;
   font-size: 1.6rem;
+  background-color: #f1f3f5;
+}
+
+a {
+  color: #000;
+}
+
+.welcome--heading {
+  width: 65%;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome--heading h1 {
+  text-align: center;
+}
+
+.fa-brands {
+  margin-left: 2rem;
+}
+
+.fa-brands {
+  cursor: pointer;
+}
+
+.fa-facebook:hover {
+  color: #000fff;
+}
+
+.fa-instagram:hover {
+  color: #ae3ec9;
+}
+
+.fa-twitter:hover {
+  color: #4dabf7;
+}
+
+.nav {
+  background-color: #fff;
+}
+
+.nav--section {
+  width: 65%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+}
+
+.nav--link__anchor {
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
+.nav--link__anchor:hover {
+  background-color: #dee2e6;
+}
+
+.main {
+  padding: 5rem 0;
+  margin: 1rem auto;
+
+  position: relative;
+}
+
+.hero-wrapper {
+  background-image: linear-gradient(
+      to right bottom,
+
+      rgba(222, 226, 230, 0.8),
+      rgba(52, 58, 64, 0.8)
+    ),
+    url("https://t4.ftcdn.net/jpg/03/37/54/53/360_F_337545396_lNcjK2Og3yM7X3sMuhyRXKg0bDtImHnO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 85vh;
+}
+
+.hero--section {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+
+.hero-desc {
+  background-color: #000;
+  opacity: 0.5;
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+}
+
+.hero-desc h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.image--section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image--medium {
+  height: 145px;
+  width: 217px;
+}
+
+.main--images {
+  display: inline-block;
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+  border-radius: 10px;
+}
+
+.main--images:hover {
+  cursor: pointer;
+  border: 5px solid #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%) scale(5);
 }
