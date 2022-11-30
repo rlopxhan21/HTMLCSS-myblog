@@ -24,9 +24,7 @@ a {
 }
 
 .welcome--heading {
-  width: 65%;
   padding: 0.5rem 0;
-  margin: 0 auto;
 
   display: flex;
   justify-content: space-between;
@@ -63,15 +61,14 @@ a {
 }
 
 .nav--section {
-  width: 65%;
-  margin: 0 auto;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.link {
+.container {
+  max-width: 65%;
+  margin: 0 auto;
 }
 
 .nav--link__anchor {
@@ -105,8 +102,8 @@ a {
 
 .hero--section {
   max-width: 50%;
-  margin: 0 auto;
   padding: 10rem 0;
+  margin: 0 auto;
 }
 
 .hero-desc {
@@ -121,37 +118,101 @@ a {
   text-align: center;
   margin-bottom: 2rem;
 }
+.post-section {
+  padding: 4rem 0;
+}
 
-.image--section {
-  width: 65%;
-  margin: 0 auto;
-  padding: 5rem 0;
+.posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-content {
+  width: 80%;
+}
+
+.side-links {
+  width: 20%;
+  margin-left: 2rem;
+  margin-top: 7.5rem;
+}
+
+.art-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img--inside {
+  height: 200px;
+}
+
+.card-list {
+}
+
+article {
+  margin: 2rem 0;
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
-.image--medium {
-  height: 145px;
-  width: 217px;
+.post-content h2 {
+  text-align: center;
+  margin-top: 2rem;
+  letter-spacing: 10px;
 }
 
-.main--images {
-  display: inline-block;
-  margin-right: 10rem;
-  margin-bottom: 5rem;
+.art-content p {
+  font-weight: 300;
+}
+
+.art-title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+
+.art-content p {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.post-image {
+  height: 200px;
   border-radius: 10px;
 }
 
-.main--images:hover {
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.btn:hover {
   cursor: pointer;
-  border: 5px solid #fff;
+}
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.btn-readmore {
+  border: none;
+  background-color: green;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
 
-  transform: translate(-50%, -50%) scale(5);
+.country,
+.date {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.country ul,
+.date ul {
+  padding-left: 1rem;
 }
