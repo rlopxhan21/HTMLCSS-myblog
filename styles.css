@@ -147,9 +147,6 @@ a {
   height: 200px;
 }
 
-.card-list {
-}
-
 article {
   margin: 2rem 0;
   background-color: #fff;
@@ -215,4 +212,38 @@ article {
 .country ul,
 .date ul {
   padding-left: 1rem;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img--card {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #fff;
+  margin-right: 2rem;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  width: minmax(300px, 100%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .container {
+  text-align: center;
+}
+
+.card-section h2 {
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 3rem 0;
 }
