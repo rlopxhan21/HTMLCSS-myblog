@@ -158,6 +158,10 @@ article {
   align-items: center;
 }
 
+article btn {
+  float: right;
+}
+
 .post-content h2 {
   text-align: center;
   margin-top: 2rem;
@@ -227,12 +231,11 @@ article {
 
 .card {
   background-color: #fff;
-  margin-right: 2rem;
+  margin: 1rem 2rem;
   border-radius: 10px;
   border: none;
   padding: 2rem 1rem;
   box-shadow: 0 5px 5px 2px rgba(59, 55, 55, 0.8);
-  width: minmax(300px, 100%);
 
   display: flex;
   flex-direction: column;
@@ -284,4 +287,112 @@ article {
 footer {
   text-align: center;
   padding: 2rem;
+}
+
+/* @media (0 <= width <= 768px) {
+  html {
+    font-size: 20%;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  html {
+    font-size: 20%;
+  }
+} */
+
+/* Laptops */
+
+@media (max-width: 1224px) {
+  html {
+    font-size: 45%;
+  }
+
+  .posts {
+    flex-direction: column;
+  }
+
+  .post-content {
+    width: 100%;
+  }
+
+  .side-links {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .country,
+  .date {
+    margin: 0;
+    width: 40%;
+    text-align: center;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome--heading {
+    display: none;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .art-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .art-image {
+    width: 100%;
+  }
+
+  .img--inside {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .side-links {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-links ul li {
+    text-decoration: underline;
+  }
+
+  .country,
+  .date {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .subscription form {
+    width: 80%;
+  }
 }
